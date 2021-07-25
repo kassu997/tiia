@@ -70,7 +70,7 @@ button {
     margin-top: 5%;
     border: none;
     color: rgb(255, 255, 255);
-    background-color: rgba(91, 94, 245, 0.733);
+    background-color: rgba(158, 158, 158, 0.767);
     font-weight: 800;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -145,7 +145,14 @@ a:hover {
 #logo5 {
     height: 15%;
     width: 15%;
+    padding-left: 10px;
     
+}
+
+#logo6 {
+    height: 20%;
+    width: 20%;
+    padding-left: 10px;
 }
 footer {
     background-color: rgb(27, 27, 27);
@@ -172,12 +179,12 @@ a[href^=tel] {
 
 #fb-logo {
 
-    height: 19%;
+    height: 21%;
     width: 12%;
     margin: 3%;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
     #otsikko {
         font-size: 2.75rem;
     }
