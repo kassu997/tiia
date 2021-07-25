@@ -1,3 +1,4 @@
+
 body {
     
     background-color: rgb(255, 255, 255);
@@ -18,6 +19,8 @@ body {
     max-width: 100%;
     
 }
+
+
 
 
 #navi {
@@ -97,8 +100,8 @@ a:hover {
 }
 
 #kuva {
-    width: 35%;
-    height: 35%;
+    width: 100%;
+    height: 100%;
     position: relative;
     border-radius: 10%
 }
@@ -110,55 +113,63 @@ a:hover {
     
 }
 
-#hinnasto {
-    padding-top: 50px;
+h2 {
+    padding: 30px;
+}
+#artikkeli {
     text-align: center;
-    font-weight: 700;
-    margin: 5%;
+    padding-bottom: 50px;
     
 }
 
 #tietoja {
     margin: 5%;
-    
+    font-style: italic;
+    font-size: 0.85rem;
 }
 
 #logo1 {
-    height: 25%;
-    width: 25%;
+    height: 9%;
+    width: 18%;
     padding-left: 10px;
 }
 
 #logo2 {
     
-    height: 25%;
-    width: 25%;
+    height: 15%;
+    width: 22%;
 }
 
 #logo3 {
-    height: 12%;
-    width: 12%;
+    height: 9%;
+    width: 16%;
     padding-left: 10px;
 }
 
 #logo4 {
-    height: 25%;
-    width: 25%;
+    height: 11%;
+    width: 22%;
     padding-left: 10px;
 }
 
 #logo5 {
-    height: 15%;
+    height: 7%;
     width: 15%;
     padding-left: 10px;
     
 }
 
 #logo6 {
-    height: 20%;
-    width: 20%;
+    height: 7%;
+    width: 15%;
     padding-left: 10px;
 }
+
+#nappula {
+    height: auto;
+    width: auto;
+}
+
 footer {
     background-color: rgb(27, 27, 27);
     text-align: center;

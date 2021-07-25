@@ -9,7 +9,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;800&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@300;400;700;800&display=swap" rel="stylesheet">
             <link href="css/tyyli.css" rel="stylesheet" type="text/css" />
             <title>Urheiluhieroja Tiiastiina</title>
             <div class="container-fluid"></div>
@@ -30,54 +30,122 @@
               <div class="collapse navbar-collapse" id="navibar">
                 <ul class="navbar-nav  mb-2 mb-lg-0 text-light mx-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="./index1.html">Etusivu</a>
+                    <a class="nav-link active" href="./">Etusivu</a>
                   </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#esittely">Minä</a>
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#mina">Minä</a>
                   </li>
-                
                   <li class="nav-item">
                     <a class="nav-link" data-bs-toggle="modal" data-bs-target="#hinnasto">Hinnasto</a>
                   </li>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
-          </div>
+      </div>
           </nav>
           <div class="row">
           <div id="navi" class="container-fluid mx-auto pt-3 pb-3">
           <h3 id="boksi">Ota hetki aikaa itsellesi <br><button><a href="https://nettivaraus5.ajas.fi/ajanvaraus.php?lid=f21dfb51f5be" target="_blank" >Varaa aika tästä!</a></button> </h3>
           </div>     
         </div>
-        </div>
+        
         <div class="row">
-          <div class="container">
+          <div class="container" id="artikkeli">
+            <h2>Miksi käydä hieronnassa?</h2>
+              <article>Hierontaan tuleminen on pieni satsaus omaa hyvinvointiaan ajatellen.  Hieronnan tarkoitus on rentouttaa, vähentää stressiä, helpottaa lihaskireyksiä tai olla apu akuuttiin tai krooniseen kipuun.
+                Se on hetki omaa aikaa sinulle.<br><br>
+                
+                Ennen hierontaa tutkin haastattelemalla ja liiketestein mistä kireydet johtuvat.  Kehon eri osat liittyvät toisiinsa ja on tärkeää käsitellä kutakin hoidettavaa kokonaisuutena. Ennen hierontaa sovitaan yhdessä mitä alueita olisi hyvä käsitellä.
+                Hieronta on hoitotapahtuma, jonka tavoitteena on  parantaa verenkiertoa ja tehostaa aineenvaihduntaa eli imunesteen (lymfan) kulkua poistaen kuona­-aineita. Hieronnan jälkeen onkin hyvä juoda paljon vettä, jotta kuona poistuu kehosta.
+                Hieronnan aikana pystyt oppimaan todella paljon omasta kehostasi. Voit aina kysyä asioista joihin haluat tarkennusta tai tietoa.
+                <br><br>
+                <h5>Kuinka usein pitäisi hierojalla käydä?</h5><br>
+                Hierojalla on hyvä käydä kuuriluonteisesti muutamien viikkojen sisällä joitakin kertoja. Tähän asiaan ei ole yksiselitteistä vastausta, mutta käytännön työ on opettanut, että parhaimman hyödyn saa hieronnasta, käymällä muutaman kerran lyhyen ajan sisällä.
+                 Sen jälkeen säännöllinen, esimerkiksi kerran kuukaudessa oleva hieronta pitää lihasten jännitystilat poissa. Tutkimusten ja hieronnan perusteella, katsotaan sinulle sopiva käyntitiheys.</article>
+          </div>
+        </div>
+            <div class="modal fade" id="mina" tabindex="-1" aria-labelledby="mina" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="mina">Minä</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    
+                  </div>
+                  <div class="modal-body">
           <div id="esittely" class="container mx-auto text-style-bold">      
-            <h2>Esittely</h2>
+            
                 <img src="css/images/tiia.jpg" id="kuva" />
                 <p>Olen valmistunut koulutetuksi hierojaksi sekä urheiluhierojaksi heinäkuussa 2019 Carl Wilhelm akatemiasta Tampereelta.
-                    Hieronnalla pyritään auttamaan kehon palautumista, sekä hoitamaan kipua tuottavia ongelmakohtia lihaksessa.
+                   <!-- Hieronnalla pyritään auttamaan kehon palautumista, sekä hoitamaan kipua tuottavia ongelmakohtia lihaksessa.
                     Hieronta on myös hyvä aikalisä itselle arjen keskellä, sillä hieronnalla on stressiä lieventävä ja mieltä rauhoittava vaikutus.
                     Hierojana haluan edistää ihmisten hyvinvointia ja auttaa jaksamista arjessa. Hieronta sopii lähes kaikille ja räätälöin palvelun mahdollisimman hyvin sinun toiveita vastaavaksi. Se voi olla hetki omaa aikaa rentoutuen,kivunlievitystä ongelmakohtaan, tai lihasten liikkuvuuden ylläpitoa. Kerro toiveesi rohkeasti, niin teen parhaani, jotta pääsemme toivottuun tulokseen.
                     Hieronnassa käytän klassisen hieronnan ja urheiluhieronnan otteita. Voimme lisätä hierontaan myös triggerpistekäsittelyä sekä passiivisia venytyksiä lihakselle.
                     Ensimmäisellä hoitokerralla aikaan sisältyy esitietolomakkeen tarkistus, ryhtitarkistus ja tarvittaessa liikerata testauksia.
                     Mikäli sinulle sopivaa aikaa ei löydy varauskalenterista, niin olethan yhteydessä ja katsotaan mitä voin tehdä.
-                    Teen myös koti- ja yrityskäyntejä. Ota yhteyttä sähköpostin kautta, niin löydämme sinun tai yrityksesi tarpeita vastaavan ratkaisun.</p>
-                </div>
+                    Teen myös koti- ja yrityskäyntejä. Ota yhteyttä sähköpostin kautta, niin löydämme sinun tai yrityksesi tarpeita vastaavan ratkaisun. --></p>
+                
+        <button type="button"  id="nappula" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+            
+            </div>
               </div>
+              
+            </div>
+          </div>
         </div>
         <div class="modal fade" id="hinnasto" tabindex="-1" aria-labelledby="hinnasto" aria-hidden="true">
-          <div class="modal-dialog">
+          <div class="modal-dialog" role="document">
             <div class="modal-content">
-              <div class="modal-header mx-auto">
+              <div class="modal-header">
                 <h5 class="modal-title" id="hinnasto">Hinnasto</h5>
-                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>  
               </div>
               <div class="modal-body">
-                <div id="hinnasto" class="container"></div>
-                <p> 30 min   30€<br>
-                  <p id="tietoja"><i>Sopiva esim. niska-/hartiaseudun hierontaan tai akuutin kivun lievittämiseen paikallisesti.<br></i></p><br>
+                <div id="hinnasto" class="container-fluid"></div>
+                <div class="row">
+                  <div class=column>
+                    <table class="table table-hover m-1">
+                      <thead>
+                        <th>Kesto</th>
+                        <th>Hinta</th>
+                        <th>Kuvaus</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>30 min</td>
+                          <td>30 €</td>
+                          <td id="tietoja">Sopiva esim. niska-/hartiaseudun hierontaan tai akuutin kivun lievittämiseen paikallisesti.</td>
+                        </tr>
+                        <tr>
+                          <td>45 min</td>
+                          <td>35 €</td>
+                          <td id="tietoja">Sopiva esim. niskan, hartian ja lapaluiden seudun hierontaan tai esim. pohkeiden ja säärien hierontaan.</td>
+                        </tr>
+                        <tr>
+                          <td>60 min</td>
+                          <td>40 €</td>
+                          <td id="tietoja">Sopiva esim. koko selän hierontaan tai pohkeiden ja takareisien hierontaan.</td>
+                        </tr>
+                        <tr>
+                          <td>75 min</td>
+                          <td>45 €</td>
+                          <td id="tietoja">Sopiva esim. koko selän ja rinnan hierontaan tai esim. pohkeet, takareidet ja pakarat.</td>
+                        </tr>
+                        <tr>
+                          <td>90 min</td>
+                          <td>50 €</td>
+                          <td id="tietoja">Sopiva esim. jalkojen hierontaan tai koko selän, olkapäiden ja rinnan hierontaan.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                <!-- <p> 30 min   30€<br>
+                </div>
+                <div class="col-8">
+                  <p id="tietoja"><i>Sopiva esim. niska-/hartiaseudun hierontaan tai akuutin kivun lievittämiseen paikallisesti.<br></i></p>
+                </div>
+              </div>
+              <br>
                     45 min   35€<br>
                 <p id="tietoja"><i>Sopiva esim. niskan, hartian ja lapaluiden seudun hierontaan tai esim. pohkeiden ja säärien hierontaan.</i><br></p><br>
                     60 min   40€<br>
@@ -85,7 +153,7 @@
                     75 min    45€<br>
                  <p id="tietoja"><i>Sopiva esim. koko selän ja rinnan hierontaan tai esim. pohkeet, takareidet ja pakarat.</i><br></p><br>
                     90 min    50€<br>
-                 <p id="tietoja"><i>Sopiva esim. jalkojen hierontaan tai koko selän, olkapäiden ja rinnan hierontaan.</i><br></p><br>
+                 <p id="tietoja"><i>Sopiva esim. jalkojen hierontaan tai koko selän, olkapäiden ja rinnan hierontaan.</i><br></p><br> -->
                  <img src="./css/images/Smartumpay.png" id="logo1"></img>
                  <img src="./css/images/Epassi.jpg" id="logo3"></img>
                  <img src="./css/images/Eazybreak.png" id="logo4" />
@@ -100,6 +168,7 @@
               
             </div>
           </div>
+        </div>
         </div>
         </body>
     <footer>
