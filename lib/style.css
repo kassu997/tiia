@@ -257,7 +257,7 @@ a[href^=tel] {
     }
 
     #navi {
-        height: 40%;
+        height: 200px;
     }
     #boksi {
         font-size: 1.75rem;
