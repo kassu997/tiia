@@ -33,6 +33,12 @@ body {
       
 }
 
+#navbtn {
+    width: 10%;
+    height: 10%;
+
+}
+
 #boksi {
     background-color: rgba(0, 0, 0, 0.301);
     font-size: 3rem;
@@ -47,6 +53,12 @@ body {
     text-align: center;
     padding-top: 50px;
     font-family: 'Dancing Script', cursive;
+}
+
+#slogan {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 3rem;
 }
 
 a {
@@ -110,6 +122,8 @@ a:hover {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 1.2rem;
+
     
 }
 
@@ -122,14 +136,37 @@ h2 {
     
 }
 
-#tietoja {
-    margin: 5%;
-    font-style: italic;
-    font-size: 0.85rem;
+#kesto {
+    font-style: bold;
 }
 
-#maksutavat {
-    justify-content: center;
+#tietoja {
+    text-align: center;
+    padding: 5%;
+    margin: 20%;
+    font-style: italic;
+    font-size: 0.85rem;
+    border-bottom: 2px solid black;
+
+}
+
+#kuva_tiia {
+    
+    height: 40%;
+    width: 30%;
+    border-radius: 75%;
+}
+
+#mailikuva {
+    height: 7%;
+    width: 7%;
+
+}
+
+#puhelinnumero {
+    height: 7%;
+    width: 7%;
+    font-style: bold;
 }
 
 #logo1 {
@@ -184,6 +221,7 @@ footer {
     
 }
 
+
 a[href^=tel] { 
     color: inherit; 
     text-decoration: inherit;
@@ -201,6 +239,12 @@ a[href^=tel] {
 
     height: 21%;
     width: 12%;
+    margin: 3%;
+}
+
+#fb-logo1 {
+    height: 14%;
+    width: 6%;
     margin: 3%;
 }
 
